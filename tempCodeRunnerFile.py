@@ -1,6 +1,10 @@
-str1="I am Anika"
-str2="Iam an engineer"
-str3="I am from Bangladesh"
-final_str=str1 +","+str2+","+str3
-print(final_str)
-print(len(final_str))
+marks = input("enter student marks : ")
+if(marks >= 90):
+    grade="A"
+elif(marks >=80 and marks <90):
+    grade="B"
+elif(marks >=70 and marks <80):
+    grade="C"
+else:
+    grade="D"
+    print("grade of the student ->",grade)
