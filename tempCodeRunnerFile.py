@@ -1,5 +1,3 @@
-x=int(input("enter number:"))
-if(x% 7 == 0):
-    print("multiple of 7")
-else:
-    print("not a multiple")
+marks = [94.5,86.2,76.9,67.3,55.3]
+print(marks)
+print(type(marks))
