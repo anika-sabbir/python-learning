@@ -1,9 +1,6 @@
-student ={
-    "name":"anika sabbir",
-    "subjects":{
-        "phy":98,
-        "chem":95,
-        "math":93
-    }
-}
-print(len(list(student.keys())))
+set1={1,2,3}
+set2={2,3,4}
+
+print(set1.union(set2))
+print(set1)
+print(set2)
