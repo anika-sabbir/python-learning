@@ -1,8 +1,12 @@
-#Write a recursive function that prints numbers from n down to 1.
-def show(n):
-   if(n == 0):
-      return
-   print(n)
-   show(n-1)
 
-   show(5)
+with open("practice.txt","r")as f:
+   data = f.read()
+   print(data)
+      
+   num =""
+   for i in range(len(data)):
+      if(data[i] == ","):
+         print(int(num))
+         num =""
+      else:
+         num +=data[i]
